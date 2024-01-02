@@ -5,8 +5,6 @@ var s3uri     = ''
 var bufferFile = ''
 var bufferName   = ''
 
-echom 'here'
-
 export def g:S3Edit(uri: string = expand('<afile>'))
   s3uri = uri
 
